@@ -1,0 +1,6 @@
+@DkGourmet_HostAddress = http://localhost:5299
+
+GET {{DkGourmet_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
