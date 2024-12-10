@@ -126,3 +126,4 @@ D:\Programação\DkGourmet\DkGourmet\obj\Debug\net8.0\refint\DkGourmet.dll
 D:\Programação\DkGourmet\DkGourmet\obj\Debug\net8.0\DkGourmet.pdb
 D:\Programação\DkGourmet\DkGourmet\obj\Debug\net8.0\DkGourmet.genruntimeconfig.cache
 D:\Programação\DkGourmet\DkGourmet\obj\Debug\net8.0\ref\DkGourmet.dll
+D:\Programação\DkGourmet\DkGourmet\obj\Debug\net8.0\DkGourmet.sourcelink.json

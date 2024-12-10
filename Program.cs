@@ -17,8 +17,6 @@ builder.Services.AddDbContext<AppDbContext>(options => options.UseMySql(dkCnn, S
 
 builder.Services.AddTransient<IDkService, DkService>();
 
-builder.WebHost.UseUrls("http://*:8080");
-
 var app = builder.Build();
 
 app.UseSwagger();

@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("DkGourmet")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+32adac5525fe6bdb14c513a4d50835ef17fa2770")]
 [assembly: System.Reflection.AssemblyProductAttribute("DkGourmet")]
 [assembly: System.Reflection.AssemblyTitleAttribute("DkGourmet")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

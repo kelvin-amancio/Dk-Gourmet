@@ -1,0 +1,24 @@
+name: Deploy to Fly.io
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout code
+      uses: actions/checkout@v2
+
+    - name: Set up Fly CLI
+      uses: walt-clark/flyctl-action@v1
+      with:
+        fly_api_token: ${{ secrets.FLY_API_TOKEN }}
+
+    - name: Deploy to Fly.io
+      run: |
+        flyctl auth login --token $FLY_API_TOKEN
+        flyctl deploy
